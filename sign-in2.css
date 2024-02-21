@@ -20,7 +20,7 @@ body{
     border-radius: 20px;
     position: relative;
     overflow: hidden;
-    box-sizing: 0 50px 30px ;
+    box-sizing: 0 25px 10px ;
 }
 
 #container a{
@@ -72,15 +72,15 @@ body{
 form{
     display: flex;
     flex-direction: column;
-    margin-left: 90px;
-    margin-top: 50px;
+    margin-left: 100px;
+    margin-top: 25px;
 }
 
 img{
     display: flex;
     flex-direction: row;
     justify-items: flex-end;
-    margin-left: 200px;
+    margin-left: 100px;
 
 }
 
@@ -90,4 +90,20 @@ img{
     align-items: center;
     width: 60px;
     margin-top: -5px;
+    margin-left: 55px;
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.person{
+    width: 10px;
+    height: 5px;
+    margin-top: 260px;
+    margin-left: 310px;
+    position: absolute;
 }
